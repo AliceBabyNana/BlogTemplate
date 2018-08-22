@@ -1,0 +1,9 @@
+/* layout */
+#Alice-blog-left,#Alice-blog-mid,#Alice-blog-right{
+    position: relative;
+    top:100px;
+}
+ #Alice-blog-left{
+    position: fixed !important;
+} 
+
