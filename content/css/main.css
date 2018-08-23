@@ -5,5 +5,69 @@
 }
  #Alice-blog-left{
     position: fixed !important;
-} 
+    text-align: center;
+}
+/*header*/
+.Alice-blog-header{
+    text-align: center;
+}
+#Alice-blog-headphoto img{
+    height: 100px;
+    width: 100px;
+}
 
+#Alice-blog-information>span{
+    font-size: 20px;
+}
+#Alice-blog-information>span:hover{
+    color: pink;
+}
+#Alice-blog-information>span:hover::after{
+  width: 0;
+}
+
+#Alice-blog-information>span::after{
+    content: "";
+    width: 100%;
+    border-top: 1px solid #999;
+    border-right:0px;
+    border-bottom:0px; 
+    border-left:0px; 
+    display: block;
+    transition: width .2s;
+    -moz-transition: width .2s; /* Firefox 4 */
+    -webkit-transition: width .2s; /* Safari 和 Chrome */
+    -o-transition: width .2s; /* Opera */
+}
+
+#Alice-blog-Icon div{
+    text-align: center;
+ display: inline-block;
+ color: rgba(0,0,0,.6);
+ padding: 5px 8px 0px 8px;
+}
+#Alice-blog-Icon div:hover{
+    font-size: 18px;
+}
+#Alice-blog-Icon div span{
+    font-size: 12px;
+    display: block;
+}
+.Alice-blog-header-category a:hover{
+    background-color:plum !important;
+}
+.Alice-blog-footer:hover{
+    color: plum;
+}
+/*footer*/
+.Alice-blog-footer,.Alice-blog-header-category a{
+    color:#888;
+}
+/*body*/
+body{
+    font-family: 'Microsoft YaHei', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.my{
+   
+}
