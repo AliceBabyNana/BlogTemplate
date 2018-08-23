@@ -68,6 +68,20 @@ body{
     font-family: 'Microsoft YaHei', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
-.my{
-   
+.panel,.Alice-blog-header{
+    border-top-left-radius: 13px !important;
+    border-top-right-radius: 13px !important;
 }
+.Alice-blog-header-category a:last-child,.panel{
+    border-bottom-left-radius: 13px !important;
+    border-bottom-right-radius: 13px !important;
+}
+
+/* monile phone*/
+@media screen and  (max-width: 768px) {
+    #Alice-blog-left,#Alice-blog-right,#Alice-blog-mid{
+        position: relative !important;
+        top: 0px;
+    }
+ }
+ 
