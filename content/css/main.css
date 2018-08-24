@@ -63,10 +63,58 @@
 .Alice-blog-footer,.Alice-blog-header-category a{
     color:#888;
 }
+/* mid */
+#Alice-blog-articleList>div>article::after{
+    content: "";
+    width: 100%;
+    border-top: 1px solid #777;
+    border-right:0px;
+    border-bottom:0px; 
+    border-left:0px; 
+    display: block;
+    opacity: 0.3;
+}
+#Alice-blog-articleList>div>article{
+    padding-bottom: 30px;
+}
+#Alice-blog-articleList>.panel-body{
+    padding-top: 0px;
+}
+.Alice-blog-article{
+ padding-left: 10px;
+ padding-right: 10px;
+ display: block;
+}
+.Alice-blog-article .bg{
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+min-height: 240px;
+opacity: 0.8;
+}
+.Alice-blog-article .bg:hover{
+    opacity: 1;
+}
+.Alice-blog-article-content{
+    opacity: 0.7;
+    font-size: 15px;
+    letter-spacing:2px;
+}
+
 /*body*/
+@font-face
+{
+font-family: PingFang SC;
+src: url('./font/Alice.TTF')
+}
+
 body{
-    font-family: 'Microsoft YaHei', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'PingFang SC','Helvetica Neue',Helvetica,'Hiragino Sans GB',STHeitiSC-Light,'Microsoft YaHei',Arial,sans-serif;
     color: black;
+}
+h1{
+    font-size: 24px;
 }
 .panel,.Alice-blog-header{
     border-top-left-radius: 13px !important;
