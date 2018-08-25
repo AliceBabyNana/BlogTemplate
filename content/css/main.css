@@ -161,25 +161,30 @@
 }
 
 /*article details */
-#Alice-blog-Title{
+
+#Alice-blog-Title {
     width: 100%;
     text-align: center;
     position: relative;
     bottom: 20px;
 }
-#Alice-blog-Title>h1{
+
+#Alice-blog-Title>h1 {
     font-size: 28px;
     padding-left: 0px;
 }
-#Alice-articleDetails-bar{
+
+#Alice-articleDetails-bar {
     text-align: center;
     position: relative;
     bottom: 23px;
 }
-#Alice-blog-article-content{
+
+#Alice-blog-article-content {
     font-size: 17px;
     letter-spacing: 2px;
 }
+
 /*body*/
 
 @font-face {
@@ -190,12 +195,17 @@
 body {
     font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', Arial, sans-serif;
     color: black;
+    background-color: #FFFFFF;
 }
 
 h1 {
     font-size: 24px;
 }
 
+.bottom-radius{
+    border-bottom-left-radius: 13px !important;
+    border-bottom-right-radius: 13px !important;
+}
 .panel, .Alice-blog-header {
     border-top-left-radius: 13px !important;
     border-top-right-radius: 13px !important;
@@ -213,4 +223,5 @@ h1 {
         position: relative !important;
         top: 0px;
     }
+   
 }
